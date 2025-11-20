@@ -16,4 +16,8 @@ WHERE DBId = DB_ID(@DatabaseName) AND SPId <> @@SPId
 --SELECT @SQL 
 EXEC(@SQL)
 
-DROP DATABASE MyDatabase;
+IF DB_ID(@DatabaseName) IS NOT NULL
+BEGIN
+    EXEC('DROP DATABASE ' + @DatabaseName);
+END
+GO
