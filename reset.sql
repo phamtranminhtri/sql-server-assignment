@@ -2,6 +2,7 @@
 -- Posted by unruledboy, modified by community. See post 'Timeline' for change history
 -- Retrieved 2025-11-15, License - CC BY-SA 4.0
 USE master;
+GO
 
 DECLARE @DatabaseName nvarchar(50)
 SET @DatabaseName = N'MyDatabase'
