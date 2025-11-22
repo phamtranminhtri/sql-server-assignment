@@ -5,3 +5,7 @@ SQL Server queries run order:
 3. `insert_data.sql`: Populate the tables with data.
 4. `function_procedure.sql`: Create functions and stored procedures (TODO).
 5. `trigger.sql`: Create triggers (TODO).
+
+(`test.sql` is for demo the effects of the functions, stored procedures, and triggers)
+
+When something goes wrong, drop the database with `reset.sql` and restart!
